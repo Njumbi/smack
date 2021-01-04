@@ -60,7 +60,9 @@
         android:onClick="addChannelBtnClicked"
         android:padding="5dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/addchannelbutton"
-        tools:layout_editor_absoluteX="351dp"
-        tools:layout_editor_absoluteY="144dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toEndOf="@+id/loginBtnNavHeader"
+        app:srcCompat="@drawable/addchannelbutton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
